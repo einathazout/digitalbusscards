@@ -1,0 +1,137 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+    direction: ltr;
+	
+}
+.oz-body-wrap{
+    margin: 50px 30vw;
+}
+.banner-area, .about-area, .feature-area .overlay-bg {
+    background: #13293D;
+}
+.banner-area, .about-area, .feature-area .overlay-bg{
+    border: 0.5px solid #F2EDE6;
+}
+.single-feature{
+    background-color: transparent;
+    padding: 0;
+}
+.feature-area{
+    padding: 3vw 3vw 3vw 6vw;
+    padding-bottom: 0;
+}
+.feature-area .icon{
+    background-color: transparent;
+    font-size: 4vw;
+    padding: 0;
+}
+.feature-area .icon:hover{
+    background-color: transparent;
+}
+.story-content h2{
+    color: #F2EDE6;
+}
+i{
+    color: #F2EDE6;
+}
+.banner-left{
+    margin-top: 0;
+}
+.about-area .story-content h2{
+    font-size: 2vw;
+    text-align: center;
+}
+.feature-area .desc{
+    margin-top: 2vw;
+    text-align: center;
+}
+.feature-area .desc h2{
+    color: #F2EDE6;
+    font-size: 1vw;
+    margin-bottom: 3vw;
+}
+.more{
+    background: #13293D;
+    padding: 15px 0;
+    color: #F2EDE6;
+    font-size: 2vw;
+}
+.fa-angle-left{
+    margin: 0 10px;
+}
+.long_road {
+    display: none;
+    direction: rtl;
+    margin: 2vw 5vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
+}
+.direction_short_road {
+    cursor: pointer;
+    text-align: center;
+}
+.banner-area .fullscreen {
+    height: 30vw !important;
+}
+
+
+
+@media (max-width: 1024px){
+    .oz-body-wrap{
+        margin: 50px 20vw;
+    }
+    .banner-area .fullscreen {
+        height: 45vw !important;
+    }
+    .about-area .story-content h2, .more{
+        font-size: 3vw;
+    }
+    .feature-area .icon{
+        font-size: 7vw;
+    }
+    .feature-area .desc h2{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 767px){
+    .oz-body-wrap{
+        margin: 0px;
+    }
+    .banner-area .fullscreen {
+        height: 260px !important;
+    }
+    .story-content {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .about-area .story-content h2, .more{
+        font-size: 5vw;
+    }
+    .long_road {
+        font-size: 5vw;
+        line-height: 5.5vw;
+    }
+    .feature-area{
+        padding-top: 8vw;
+    }
+    .feature-area .icon{
+        font-size: 10vw;
+    }
+    .feature-area .desc h2{
+        font-size: 3vw;
+        margin-bottom: 10vw;
+    }
+    
+}
+
+.einat .banner-area {
+    background: #f4e700;
+}
+.einat .about-area, .einat .feature-area .overlay-bg, .einat .more{
+    background: #585858;
+}

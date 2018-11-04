@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:אביחי;חזוט;;;
+FN: חזוט  אביחי 
+ORG:עצמאי;
+TITLE:מנחה קבוצות ומוזיקאי
+EMAIL;type=INTERNET;type=WORK;type=pref:hazout3@gmail.com
+TEL;type=WORK;type=VOICE:+972 52 254 2850 
+item1.ADR;type=WORK;type=pref:;;1 Fusionopolis View\nSandcrawler\, 09-01;;;138577;Singapore
+item1.X-ABADR:sg
+item2.URL;type=pref:avihayhazout.com
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
