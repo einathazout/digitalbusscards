@@ -19,6 +19,7 @@ body {
 .single-feature{
     background-color: transparent;
     padding: 0;
+    width: auto;
 }
 .feature-area{
     padding: 3vw 3vw 3vw 6vw;
@@ -40,6 +41,9 @@ i{
 }
 .banner-left{
     margin-top: 0;
+}
+.about-area {
+    padding-top: 0;
 }
 .about-area .story-content h2{
     font-size: 2vw;
@@ -130,8 +134,11 @@ i{
 }
 
 .einat .banner-area {
-    background: #f4e700;
+    background: #44a4a9;
 }
 .einat .about-area, .einat .feature-area .overlay-bg, .einat .more{
-    background: #585858;
+    background: #706e6ee3;
+}
+.einat .feature-area{
+    background: white;
 }
