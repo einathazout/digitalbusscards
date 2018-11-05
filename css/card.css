@@ -81,8 +81,24 @@ i{
 .banner-area .fullscreen {
     height: 30vw !important;
 }
+.text-uppercase{
+    text-transform: initial !important;
+}
+.fa{
+    margin-right: 15px;
+}
+.english .feature-area .desc{
+    margin-top: 0vw;
+}
+.english .single-feature{
+    margin: 0 -1vw;
+}
 
-
+@media (max-width: 1440px){
+    .english .single-feature{
+        margin: 0 -2vw;
+    }
+}
 
 @media (max-width: 1024px){
     .oz-body-wrap{
@@ -99,6 +115,12 @@ i{
     }
     .feature-area .desc h2{
         font-size: 2vw;
+    }
+    .english .feature-area .desc h2{
+        font-size: 1vw;
+    }
+    .english .single-feature{
+        margin: 0 -1vw;
     }
 }
 
@@ -130,7 +152,16 @@ i{
         font-size: 3vw;
         margin-bottom: 10vw;
     }
-    
+    .english .feature-area .desc h2{
+        font-size: 2vw;
+        margin-bottom: 10vw;
+    }
+    .english .single-feature{
+        margin: 0 -3vw;
+    }
+    .english .feature-area .desc{
+        margin-top: -1vw;
+    }
 }
 
 .einat .banner-area {
@@ -153,3 +184,4 @@ i{
 .whitehill .feature-area{
     background: white;
 }
+
