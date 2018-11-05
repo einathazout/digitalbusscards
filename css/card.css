@@ -10,8 +10,14 @@ body {
 .oz-body-wrap{
     margin: 50px 30vw;
 }
-.banner-area, .about-area, .feature-area .overlay-bg {
+.banner-area, .about-area, .feature-area .overlay-bg, footer {
     background: #13293D;
+}
+footer{
+    direction: rtl;
+}
+.english footer{
+    direction: ltr;
 }
 .banner-area, .about-area, .feature-area .overlay-bg{
     border: 0.5px solid #F2EDE6;
@@ -87,6 +93,15 @@ i{
 .fa{
     margin-right: 15px;
 }
+.footer-bottom .footer-text, .footer-bottom .footer-text a:hover, .footer-bottom .footer-text a, .footer-bottom .footer-text i{
+    color: white;
+}
+.footer-bottom .footer-text a:hover, .footer-bottom .footer-text a, .footer-bottom .footer-text i{
+    border-bottom: 1px solid white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
 .english .feature-area .desc{
     margin-top: 0vw;
 }
@@ -158,6 +173,9 @@ i{
         font-size: 3vw;
         margin-bottom: 10vw;
     }
+    .footer-bottom .footer-text{
+        font-size: 10px;
+    }
     .english .feature-area .desc h2{
         font-size: 2vw;
         margin-bottom: 10vw;
@@ -173,7 +191,7 @@ i{
 .einat .banner-area {
     background: #44a4a9;
 }
-.einat .about-area, .einat .feature-area .overlay-bg, .einat .more{
+.einat .about-area, .einat .feature-area .overlay-bg, .einat .more, .einat footer{
     background: #706e6ee3;
 }
 .einat .feature-area{
@@ -182,10 +200,10 @@ i{
 
 
 .whitehill .banner-area {
-    background: #fb962a;
+    background: #85aaa3;
 }
-.whitehill .about-area, .whitehill .feature-area .overlay-bg, .whitehill .more{
-    background: #03632ec7;
+.whitehill .about-area, .whitehill .feature-area .overlay-bg, .whitehill .more, .whitehill footer{
+    background: #ca2545;
 }
 .whitehill .feature-area{
     background: white;
