@@ -93,6 +93,12 @@ i{
 .english .single-feature{
     margin: 0 -1vw;
 }
+.whitehill .banner-left{
+    width: 70%;
+}
+.whitehill .about-area{
+    padding: 12px 0;
+}
 
 @media (max-width: 1440px){
     .english .single-feature{
@@ -176,10 +182,10 @@ i{
 
 
 .whitehill .banner-area {
-    background: #ff6161;
+    background: #fb962a;
 }
 .whitehill .about-area, .whitehill .feature-area .overlay-bg, .whitehill .more{
-    background: #706e6ee3;
+    background: #03632ec7;
 }
 .whitehill .feature-area{
     background: white;
