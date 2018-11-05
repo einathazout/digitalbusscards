@@ -107,7 +107,7 @@ i{
         margin: 0px;
     }
     .banner-area .fullscreen {
-        height: 260px !important;
+        height: 80vw !important;
     }
     .story-content {
         margin-top: 0px;
@@ -140,5 +140,16 @@ i{
     background: #706e6ee3;
 }
 .einat .feature-area{
+    background: white;
+}
+
+
+.whitehill .banner-area {
+    background: #ff6161;
+}
+.whitehill .about-area, .whitehill .feature-area .overlay-bg, .whitehill .more{
+    background: #706e6ee3;
+}
+.whitehill .feature-area{
     background: white;
 }

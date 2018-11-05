@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:the white hill;;;
+FN: The White Hill 
+ORG:Guesthouse;
+TITLE:Guesthouse
+EMAIL;type=INTERNET;type=WORK;type=pref:thewhitehillguesthouse@gmail.com
+TEL;type=WORK;type=VOICE:+972 54 659 6339
+item1.X-ABADR:sg
+item2.URL;type=pref:thewhitehill.com
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
