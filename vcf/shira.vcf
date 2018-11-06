@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:עינת;חזוט;;;
+FN: חזוט  עינת 
+ORG:עצמאי;
+TITLE:מפתחת אתרים
+EMAIL;type=INTERNET;type=WORK;type=pref:einathazout@gmail.com
+TEL;type=WORK;type=VOICE:+972 54 782 7370 
+item1.X-ABADR:sg
+item2.URL;type=pref:einathazout.com
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
