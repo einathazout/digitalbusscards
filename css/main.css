@@ -163,6 +163,9 @@ i, .feature-area .lnr{
 }
 
 @media (max-width: 767px){
+    .logo img{
+        height: 60px;
+    }
     .about-area .story-content p, .marks-p, .genric-btn{
         font-size: 14px;
     }

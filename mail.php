@@ -12,7 +12,7 @@
 
     $message ='<table style="width:100%">
         <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
+            <td>'.$firstname.'</td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>Email: '.$text.'</td></tr>
