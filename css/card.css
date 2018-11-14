@@ -69,6 +69,7 @@ i{
     padding: 15px 0;
     color: #F2EDE6;
     font-size: 2vw;
+    border-bottom: 1px solid white;
 }
 .fa-angle-left{
     margin: 0 10px;
@@ -101,6 +102,7 @@ i{
 }
 .footer-bottom{
     padding: 20px 0;
+    border: 0;
 }
 .english .feature-area .desc{
     margin-top: 0vw;
@@ -114,10 +116,16 @@ i{
 .whitehill .about-area{
     padding: 12px 0;
 }
+.shira .h2-des{
+    font-size: 1.5vw;
+}
 
 @media (max-width: 1440px){
     .english .single-feature{
         margin: 0 -2vw;
+    }
+    .shira .h2-des{
+        font-size: 1.5vw;
     }
 }
 
@@ -142,6 +150,9 @@ i{
     }
     .english .single-feature{
         margin: 0 -1vw;
+    }
+    .shira .h2-des{
+        font-size: 2vw;
     }
 }
 
@@ -186,6 +197,12 @@ i{
     .english .feature-area .desc{
         margin-top: -1vw;
     }
+    .shira .h2-name{
+        font-size: 4vw !important; 
+    }
+    .shira .h2-des{
+        font-size: 3vw;
+    }
 }
 
 .einat .banner-area {
@@ -209,3 +226,6 @@ i{
     background: white;
 }
 
+.shira .story-content{
+    direction: rtl;
+}
