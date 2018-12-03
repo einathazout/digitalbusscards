@@ -103,6 +103,7 @@ i{
 .footer-bottom{
     padding: 20px 0;
     border: 0;
+    margin: 1vw 0;
 }
 .english .feature-area .desc{
     margin-top: 0vw;
@@ -275,3 +276,4 @@ i{
 .shira .icon-container{
     direction: rtl;
 }
+
