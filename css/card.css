@@ -66,7 +66,7 @@ i{
 }
 .more{
     background: #13293D;
-    padding: 15px 0;
+    padding: 10px 0;
     color: #F2EDE6;
     font-size: 2vw;
     border-bottom: 1px solid white;
@@ -119,6 +119,12 @@ i{
 .shira .h2-des{
     font-size: 1.5vw;
 }
+.shira .feature-area{
+    padding: 3vw 6vw 0vw 0vw;
+}
+.shira .feature-area .desc h2{
+    margin-bottom: 3vw;
+}
 
 @media (max-width: 1440px){
     .english .single-feature{
@@ -126,6 +132,12 @@ i{
     }
     .shira .h2-des{
         font-size: 1.5vw;
+    }
+    .shira .feature-area{
+        padding: 3vw 5vw 0vw 0vw;
+    }
+    .shira .feature-area .desc h2{
+        margin-bottom: 3vw;
     }
 }
 
@@ -153,6 +165,12 @@ i{
     }
     .shira .h2-des{
         font-size: 2vw;
+    }
+    .shira .feature-area{
+        padding: 7vw 6vw 0vw 0vw;
+    }
+    .shira .feature-area .desc h2{
+        margin-bottom: 7vw;
     }
 }
 
@@ -203,6 +221,21 @@ i{
     .shira .h2-des{
         font-size: 3vw;
     }
+    .shira .feature-area{
+        padding: 7vw 11vw 0vw 0vw;
+    }
+    .shira .feature-area .desc h2{
+        margin-bottom: 7vw;
+    }
+    .shira .col-sm-8{
+        width: 75%;
+    }
+}
+
+@media (min-width: 576px){
+    .container{
+        max-width: none;
+    }
 }
 
 .einat .banner-area {
@@ -226,6 +259,19 @@ i{
     background: white;
 }
 
+
 .shira .story-content{
+    direction: rtl;
+}
+.shira .banner-area {
+    background: #13536e;
+}
+.shira .about-area, .shira .feature-area .overlay-bg, .shira .more, .shira footer{
+    background: #13536e;
+}
+.shira .d-flex{
+    padding: 0;
+}
+.shira .icon-container{
     direction: rtl;
 }
