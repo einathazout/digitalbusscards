@@ -229,7 +229,10 @@ i{
         margin-bottom: 7vw;
     }
     .shira .col-sm-8{
-        width: 75%;
+        width: 68%;
+    }
+    .banner-area .fullscreen{
+        height: 70vw !important;
     }
 }
 
