@@ -265,10 +265,19 @@ i{
     direction: rtl;
 }
 .shira .banner-area {
-    background: #13536e;
+    background: #f7f2de
 }
 .shira .about-area, .shira .feature-area .overlay-bg, .shira .more, .shira footer{
-    background: #13536e;
+    background: #f7f2de;
+}
+.shira .story-content h2, .shira .more, .shira i, .shira .feature-area .desc h2, .shira .footer-bottom .footer-text, .shira .footer-bottom .footer-text a:hover, .shira .footer-bottom .footer-text a, .shira .footer-bottom .footer-text i{
+    color: #13536e;
+}
+.shira .about-area{
+    border-top: 1px solid #13536e;
+}
+.shira .more, .shira .about-area{
+    border-bottom: 1px solid #13536e; 
 }
 .shira .d-flex{
     padding: 0;
