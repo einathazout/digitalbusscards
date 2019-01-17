@@ -10,6 +10,11 @@ body {
 .oz-body-wrap{
     margin: 50px 30vw;
 }
+.oz-body-wrap-shira{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .banner-area, .about-area, .feature-area .overlay-bg, footer {
     background: #13293D;
 }
@@ -268,13 +273,16 @@ i{
     direction: rtl;
 }
 .shira .banner-area {
-    background: #f8f1de;
+    background: transparent;
 }
 .shira .about-area, .shira .feature-area .overlay-bg, .shira .more, .shira footer{
-    background: #f8f1de;
+    background: transparent;
 }
 .shira .story-content h2, .shira .more, .shira i, .shira .feature-area .desc h2, .shira .footer-bottom .footer-text, .shira .footer-bottom .footer-text a:hover, .shira .footer-bottom .footer-text a, .shira .footer-bottom .footer-text i{
     color: #13536e;
+}
+.feature-area{
+    background: none;
 }
 .shira .about-area{
     border-top: 1px solid #13536e;
