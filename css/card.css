@@ -306,5 +306,8 @@ i{
 .miki .story-content h2, .miki .more, .miki i, .miki .feature-area .desc h2, .miki .footer-bottom .footer-text, .miki .footer-bottom .footer-text a:hover, .miki .footer-bottom .footer-text a, .miki .footer-bottom .footer-text i{
     color: #41403e5c;
 }
+.miki .img-fluid{
+    max-width: 60%;
+}
 
 
