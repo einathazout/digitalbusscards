@@ -303,9 +303,14 @@ i{
 .miki .about-area, .miki .feature-area .overlay-bg, .miki .more, .miki footer{
     background: #41403e5c;
 }
-
 .miki .img-fluid{
     max-width: 60%;
+}
+.miki .story-content{
+    direction: rtl;
+}
+.miki .icon-container{
+    direction: rtl;
 }
 
 
